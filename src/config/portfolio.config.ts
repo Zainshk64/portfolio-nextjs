@@ -205,7 +205,7 @@ projects: [
     title: "Emtiyaz Education",
     description:
       "A full-stack education platform featuring student, teacher, and admin dashboards. Built with React and Tailwind CSS, integrated with backend APIs for course management, authentication, and AI chatbot for interactive learning support.",
-    link: "https://ecommerce-store-ten-eta.vercel.app/",
+    link: "https://emtiyazeducation.netlify.app/",
     img: "/projectimg/emtiyaz.png",
     tags: ["react-js", "redux", "tailwind-css", "API's", "framer-motion"],
 
@@ -365,7 +365,7 @@ projects: [
     title: "Nexcent Clone",
     description:
       "A responsive clone of the Nexcent website built with React, Tailwind CSS, Material UI, and Flowbite. Showcases modern layouts, smooth components, and clean UI.",
-    link: "https://dev.to/random_ti",
+    link: "https://react-nexcent-zs.netlify.app/",
     toolsicon: ["/react.svg", "/material.svg", "/flowbite.jpeg", "/tailwind.svg"],
   },
   {

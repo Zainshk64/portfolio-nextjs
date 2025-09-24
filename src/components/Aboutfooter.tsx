@@ -10,14 +10,10 @@ const Aboutfooter = () => {
     },
     {
       name: "Nationality",
-      answer: portfolioConfig.about.personalInfo.nationality,
+      answer: portfolioConfig.about.personalInfo.nationality + "i",
       icon: <Globe2 className="h-8 w-8" />,
     },
-    {
-      name: "Gender",
-      answer: portfolioConfig.about.personalInfo.gender,
-      icon: <Dna className="h-8 w-8" />,
-    },
+    
   ];
 
   return (

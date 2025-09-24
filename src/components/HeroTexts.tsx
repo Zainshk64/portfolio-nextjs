@@ -1,3 +1,4 @@
+import { FlipWordsDemo } from "./FlipWordDemo";
 import TextRotator from "./TextRotator";
 import { portfolioConfig } from "@/config/portfolio.config";
 
@@ -12,9 +13,9 @@ const HeroTexts = () => {
     <>
       <h3 className="font-poppins text-2xl max-sm:text-xl">My Name is</h3>
       <h1 className="font-rubik text-8xl name_underline text-primary max-sm:text-6xl ">
-        {firstName} {middleName} <br /> {lastName} .
+        {firstName} {lastName} <br />
       </h1>
-      <TextRotator />
+      <FlipWordsDemo />
     </>
   );
 };

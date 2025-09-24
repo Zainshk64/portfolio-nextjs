@@ -19,7 +19,7 @@ const rubik = Rubik({
 export const metadata: Metadata = {
   metadataBase: new URL(portfolioConfig.seo.url),
   title: {
-    default: portfolioConfig.name,
+    default: portfolioConfig.name  + ' Portfolio',
     template: `%s - ${portfolioConfig.title}`,
   },
   description: portfolioConfig.description,
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     creator: portfolioConfig.seo.twitterHandle,
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/my icon.png",
   },
 };
 

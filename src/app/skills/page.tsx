@@ -17,15 +17,12 @@ const skillPage = () => {
         <Heading>My Technical Experience/Skills.</Heading>
         <FramerWrapper y={0} x={200}>
           <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
-            Currently i am a fresher and i have a solid understand of HTML5,
-            CSS3, JS, TS and React, including responsive design principles. I
-            specialize in building web applications and sites using Javascript,
-            Typescript, React, Nextjs & Node.
+           I work with a modern frontend tech stack, combining libraries, frameworks, and tools to build sleek, scalable, and user-friendly web applications. From responsive interfaces to seamless API integrations.
           </p>
         </FramerWrapper>
         <FramerWrapper y={100} delay={0.3} className="block w-full">
           <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
-            Programming Languages
+            Frontend (Libraries/Frameworks)
           </h1>
           <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
             <SkillsFooter items={portfolioConfig.skills.programmingLanguages} />
@@ -33,7 +30,7 @@ const skillPage = () => {
         </FramerWrapper>
         <FramerWrapper className="block w-full" y={100} delay={0.32}>
           <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
-            Framework/Libraries
+           UI-Styling  (Libraries/Frameworks)
           </h1>
           <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
             <SkillsFooter items={portfolioConfig.skills.frameworks} />

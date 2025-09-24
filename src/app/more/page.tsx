@@ -13,6 +13,7 @@ import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 import { portfolioConfig } from "@/config/portfolio.config";
+import Image from "next/image";
 
 const morePage = () => {
   return (
@@ -42,6 +43,18 @@ const morePage = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-base font-poppins ">{value.description}</p>
+                  <div className="flex flex-wrap pt-4 gap-3">
+                              {value.toolsicon.map((icon: string, index: number) => (
+                                <Image
+                                  key={index}
+                                  src={icon}
+                                  alt="tech-icon"
+                                  width={28}
+                                  height={38}
+                                  className="object-contain"
+                                />
+                              ))}
+                            </div>
                 </CardContent>
                 <CardFooter>
                   <Link

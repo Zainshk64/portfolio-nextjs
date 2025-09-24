@@ -1,7 +1,7 @@
-"use client"
-import { useState, useEffect } from 'react';
-import { Download } from 'lucide-react';
-import { Button } from '../ui/button';
+"use client";
+import { useState, useEffect } from "react";
+import { Download, Eye, View } from "lucide-react";
+import { Button } from "../ui/button";
 
 const HackerBtn = ({ label }: { label: string }) => {
   const [displayText, setDisplayText] = useState(label);
@@ -33,10 +33,17 @@ const HackerBtn = ({ label }: { label: string }) => {
   }, [label]);
 
   return (
-    <Button size={'lg'} className='text-base px-5 py-6'       onMouseEnter={startScrambling}
-    >   <Download className="mx-1" />
+    <a href="/Zain_Ejaz_Frontend_Developer_Resume.pdf" target="_blank">
+      <Button
+        size={"lg"}
+        className="text-base px-5 py-6"
+        onMouseEnter={startScrambling}
+      >
+        {" "}
+        <Eye className="mx-1" />
         {displayText}
-    </Button>
+      </Button>
+    </a>
   );
 };
 

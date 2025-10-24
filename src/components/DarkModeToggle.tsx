@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 export default function DarkModeToggle() {
   const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
+  const [mounted, setMounted] = useState(true);
 
   useEffect(() => setMounted(true), []);
   if (!mounted) return null;

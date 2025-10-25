@@ -76,6 +76,9 @@
     @apply bg-background text-foreground;
   }
 }
+html{
+  scroll-behaviour: smoth;
+}
 
 /* CUSTOM CSS  */
 .name_underline::after{

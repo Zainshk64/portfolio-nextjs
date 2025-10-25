@@ -57,12 +57,12 @@ export default function ContactPage() {
   };
 
   return (
-    <section className="min-h-screen flex flex-col items-center mx-auto px-6 py-16 transition-colors duration-300">
-      <div className="max-w-lg w-full bg-card shadow-lg rounded-2xl p-8 border border-border">
-        <h1 className="text-3xl font-bold text-center text-primary mb-2">
+    <section className="min-h-screen flex flex-col items-center mx-auto  py-16 transition-colors duration-300">
+      <div className="md:max-w-lg w-full bg-card shadow-lg rounded-2xl p-4 md:p-8 border border-border">
+        <h1 className="text-3xl font-rubik font-bold text-center text-primary mb-2">
           Let’s Work Together 🚀
         </h1>
-        <p className="text-center text-muted-foreground mb-8">
+        <p className="text-center  text-muted-foreground mb-8">
           Have a project idea or want to collaborate? Send me a message below.
         </p>
 

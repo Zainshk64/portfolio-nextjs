@@ -1,9 +1,12 @@
+'use client'
 import Aboutfooter from "@/components/Aboutfooter";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 import Heading from "@/components/Heading";
 import { Badge } from "@/components/ui/badge";
 import { Book, Circle, Heart, User2 } from "lucide-react";
 import { portfolioConfig } from "@/config/portfolio.config";
+import { ArrowDown } from "lucide-react";
+// import ScrollToDown from "@/components/ScrollToDown";
 
 const page = () => {
   // const items = portfolioConfig.about.hobbies.map((hobby) => ({ hobby }));
@@ -78,6 +81,15 @@ const page = () => {
     </div>
   </FramerWrapper>
 </FramerWrapper>
+
+<button
+
+
+onClick={()=> window.scrollTo(0,1000)}
+className="fixed md:hidden bottom-6 right-3 p-3 duration-75 cursor-pointer bg-indigo-900  rounded-full shadow-2xl hover:bg-clay transition-all"
+>
+      <ArrowDown className="w-6 h-6" />
+    </button>
 
 
       

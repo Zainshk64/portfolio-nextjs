@@ -5,12 +5,9 @@ import GithubBtn from "@/components/animation/GithubBtn";
 import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 
-import { Toaster } from "react-hot-toast";
-
 export default function Home() {
   return (
     <>
-    <Toaster position="top-center" />
       {/* LEFT SIDE  */}
       <FramerWrapper
         className=" h-full w-auto flex flex-col justify-start gap-2"

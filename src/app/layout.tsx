@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
 import { portfolioConfig } from "@/config/portfolio.config";
 import { ThemeProvider } from "next-themes";
+import { Toaster } from "react-hot-toast";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -56,7 +57,31 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${poppins.variable} ${rubik.variable}`}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
+        <Toaster position="bottom-right"
+        toastOptions={{
+          className:
+            "backdrop-blur-xl bg-white/10 text-white border border-white/20 shadow-md rounded-xl px-4 py-2",
+          style: {
+            border: "1px solid rgba(255,255,255,0.2)",
+            padding: "14px 20px",
+            marginLeft: "10px",
+            marginBottom: "10px",
+            color: "#fff",
+            backdropFilter: "blur(10px)",
+            background: "rgba(255, 255, 255, 0.08)",
+            // fontSize: "18px",
+            borderRadius: "0.75rem",
+          }
+         ,
+        }}
+
+        />
+
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem={false}
+        >
           <main
             className={cn(
               "flex relative break-words h-dvh min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 bg-transparent max-sm:pt-20 transition-colors duration-300",

@@ -4,7 +4,7 @@ import ProjectCards from "@/components/ProjectsCard";
 import { Badge } from "@/components/ui/badge";
 import { Layers } from "lucide-react";
 import { portfolioConfig } from "@/config/portfolio.config";
-
+import MoreProject from "@/components/MoreProject";
 const projectsPage = () => {
   return (
     // PROJECT PAGE
@@ -27,6 +27,7 @@ const projectsPage = () => {
           return <ProjectCards key={indx} value={val} num={indx} />;
         })}
       </div>
+      <MoreProject/>
     </div>
   );
 };

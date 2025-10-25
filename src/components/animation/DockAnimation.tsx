@@ -118,10 +118,10 @@ function Dock({
       >
         <DockProvider value={{ mouseX, spring, distance, magnification }}>
           {children}
-        </DockProvider>
         <div className="ml-auto flex items-center">
           <DarkModeToggle />
         </div>
+        </DockProvider>
       </motion.div>
     </motion.div>
   );

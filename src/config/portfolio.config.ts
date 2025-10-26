@@ -14,6 +14,7 @@ export const portfolioConfig = {
     insta: "https://instagram.com/zain._shk?igshid=MzNlNGNkZWQ4Mg==",
     linkedin: "https://www.linkedin.com/in/zain-ejaz-152a7a2ab/",
     github: "https://github.com/Zainshk64",
+    whatsapp: 'https://wa.me/+9203105312929?text=Hello,%20I%20would%20like%20to%20contact%20you!'
   },
 
   seo: {

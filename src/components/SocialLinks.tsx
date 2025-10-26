@@ -1,12 +1,17 @@
 import { cn } from "@/lib/utils";
 import {
-  Facebook,
   Linkedin,
   Twitter,
   ExternalLink,
   Github,
   Instagram,
 } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
+import { GrFacebookOption } from "react-icons/gr";
+import { FaInstagram, FaLinkedin } from "react-icons/fa6";
+
+
+
 import { buttonVariants } from "./ui/button";
 import Link from "next/link";
 import FramerWrapper from "./animation/FramerWrapper";
@@ -17,23 +22,23 @@ const SocialLinks = () => {
     {
       name: "Facebook",
       link: portfolioConfig.socialLinks.facebook,
-      icon: <Facebook />,
+      icon: <GrFacebookOption size={26} />,
     },
     {
       name: "Insta",
       link: portfolioConfig.socialLinks.insta,
-      icon: <Instagram />,
+      icon: <FaInstagram size={26} />,
     },
     {
       name: "Linkedin",
       link: portfolioConfig.socialLinks.linkedin,
-      icon: <Linkedin />,
+      icon: <FaLinkedin size={26} />,
     },
     
     {
-      name: "Github",
-      link: portfolioConfig.socialLinks.github,
-      icon: <Github />,
+      name: "WhatsApp",
+      link: portfolioConfig.socialLinks.whatsapp,
+      icon: <FaWhatsapp size={26} />,
     },
   ];
   return (

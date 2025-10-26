@@ -85,7 +85,7 @@ const page = () => {
 <button
 
 
-onClick={()=> window.scrollTo(0,1000)}
+onClick={()=> window.scrollTo(0,600)}
 className="fixed md:hidden bottom-6 right-3 p-3 duration-75 cursor-pointer bg-indigo-900  rounded-full shadow-2xl hover:bg-clay transition-all"
 >
       <ArrowDown className="w-6 h-6" />

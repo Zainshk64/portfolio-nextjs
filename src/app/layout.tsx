@@ -20,33 +20,89 @@ const rubik = Rubik({
 
 export const metadata: Metadata = {
   metadataBase: new URL(portfolioConfig.seo.url),
+
   title: {
-    default: portfolioConfig.name + " Portfolio",
-    template: `%s - ${portfolioConfig.title}`,
+    default: `${portfolioConfig.name} | MERN Stack Developer Portfolio`,
+    template: `%s - ${portfolioConfig.name} | MERN Stack Developer`,
   },
-  description: portfolioConfig.description,
-  keywords: portfolioConfig.seo.keywords,
-  authors: portfolioConfig.seo.authors,
-  creator: portfolioConfig.name,
+
+  description:
+    "Explore the portfolio of Zain Ejaz — a passionate MERN Stack Developer skilled in React.js, Next.js, Node.js, Express, MongoDB, and Tailwind CSS. Building responsive, scalable, and modern full-stack web applications.",
+
+  keywords: [
+    "Zain Ejaz",
+    "Zain Sheikh",
+    "Frontend Developer",
+    "React.js Developer",
+    "Next.js Developer",
+    "MERN Stack Developer",
+    "Full Stack Developer",
+    "Node.js Developer",
+    "Express.js Developer",
+    "MongoDB Developer",
+    "Tailwind CSS Developer",
+    "JavaScript Developer",
+    "TypeScript Developer",
+    "Modern Web Developer",
+    "Portfolio",
+    "Web Design",
+    "Software Engineer",
+    "Freelance Developer",
+    "Frontend Engineer",
+    "Rawalpindi Developer",
+    "Pakistan Developer",
+  ],
+
+  authors: [{ name: "Zain Ejaz", url: "https://github.com/Zainshk64" }],
+  creator: "Zain Ejaz",
+  publisher: "Zain Ejaz",
+
   openGraph: {
     type: "website",
     locale: "en_US",
     url: portfolioConfig.seo.url,
-    title: portfolioConfig.name,
-    description: portfolioConfig.description,
-    images: [`${portfolioConfig.seo.url}/og-image.png`],
+    title: `${portfolioConfig.name} | MERN Stack Developer`,
+    description:
+      "Official portfolio of Zain Ejaz — showcasing React, Next.js, and MERN Stack development projects.",
+    images: [
+      {
+        url: `${portfolioConfig.seo.url}/og-image.png`,
+        width: 1200,
+        height: 630,
+        alt: "Zain Ejaz Portfolio",
+      },
+    ],
     siteName: portfolioConfig.name,
   },
+
   twitter: {
     card: "summary_large_image",
-    title: portfolioConfig.name,
-    description: portfolioConfig.description,
+    title: `${portfolioConfig.name} | MERN Stack Developer`,
+    description:
+      "Portfolio of Zain Ejaz — React.js, Next.js, Node.js, Express, MongoDB, Tailwind CSS.",
     images: [`${portfolioConfig.seo.url}/og-image.png`],
-    creator: portfolioConfig.seo.twitterHandle,
+    creator: "@ZainEjaz", // optional handle
   },
-  icons: {
-    icon: "/my icon.png",
+
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
+
+  alternates: {
+    canonical: portfolioConfig.seo.url,
+  },
+
+  category: "Technology",
+  icons: { icon: "/my icon.png" },
 };
 
 export default function RootLayout({

@@ -1,17 +1,7 @@
 import { cn } from "@/lib/utils";
-import {
-  Linkedin,
-  Twitter,
-  ExternalLink,
-  Github,
-  Instagram,
-} from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import { GrFacebookOption } from "react-icons/gr";
 import { FaInstagram, FaLinkedin } from "react-icons/fa6";
-
-
-
 import { buttonVariants } from "./ui/button";
 import Link from "next/link";
 import FramerWrapper from "./animation/FramerWrapper";

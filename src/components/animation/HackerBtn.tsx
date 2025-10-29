@@ -33,7 +33,7 @@ const HackerBtn = ({ label }: { label: string }) => {
   }, [label]);
 
   return (
-    <a href="/Zain_Ejaz_Frontend_Developer_Resume.pdf" target="_blank">
+    <a href="/ZainEjaz_MERN_Stack_Developer.pdf" target="_blank">
       <Button
         size={"lg"}
         className="text-base px-5 py-6"

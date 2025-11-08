@@ -14,7 +14,8 @@ export const portfolioConfig = {
     insta: "https://instagram.com/zain._shk?igshid=MzNlNGNkZWQ4Mg==",
     linkedin: "https://www.linkedin.com/in/zain-ejaz-152a7a2ab/",
     github: "https://github.com/Zainshk64",
-    whatsapp: 'https://wa.me/+9203105312929?text=Hello,%20I%20would%20like%20to%20contact%20you!'
+    whatsapp:
+      "https://wa.me/+9203105312929?text=Hello,%20I%20would%20like%20to%20contact%20you!",
   },
 
   seo: {
@@ -201,6 +202,56 @@ export const portfolioConfig = {
       tags: ["react-js", "redux", "tailwind-css", "API's", "framer-motion"],
     },
     {
+      title: "Virtual Tutor - AI Learning Platform",
+      description:
+        "An AI-powered education tool generating video lectures, slides, and notes from any topic. Integrates REST APIs for content creation, real-time discussion, and progress tracking with interactive UX.",
+      link: "https://virtual-tutor-nextjs.vercel.app/",
+      img: "/projectimg/virtualtutor.png",
+      tags: [
+        "next-js",
+        "tailwind-css",
+        "API's",
+        "framer-motion",
+      ],
+    },
+    {
+  title: "GBNodes - Game Server Hosting Platform",
+  description:
+    "A high-performance gaming hosting site for Minecraft, GTA V, ARK, and more with instant server deployment. Integrates REST APIs for plan selection, payment processing, and global VPS provisioning with low-latency features.",
+  link: "/projects",
+  img: "/projectimg/gbnodes.png",
+  tags: ["react-js", "tailwind-css", "API's" , "framer-motion"],
+},
+    {
+      title: "Estate Orbit - Lead Generation Platform",
+      description:
+        "A real estate lead engine with property search, inquiry forms, and admin dashboard. Integrates REST APIs for lead syncing, email automation, and analytics to nurture prospects efficiently.",
+      link: "https://real-estate-zs.vercel.app/",
+      img: "/projectimg/estateorbit.png",
+      tags: [
+        "next-js",
+        "tailwind-css",
+        "API's",
+        "framer-motion",
+        "lottieflies",
+      ],
+    },
+    {
+      title: "H&H Consultant - Global Education Gateway",
+      description:
+        "An education consulting platform with service booking, visa forms, and lead tracking. Uses backend APIs for appointment scheduling, email nurturing, and CRM integration for global outreach.",
+      link: "https://elite-consultant.vercel.app/",
+      img: "/projectimg/hnhconsultant.png",
+      tags: [
+        "next-js",
+        "tailwind-css",
+        "API's",
+        "framer-motion",
+        "aceternity-ui",
+        "shadcn-ui",
+      ],
+    },
+    {
       title: "E-Commerce Platform",
       description:
         "A full-stack e-commerce solution with shopping cart, user authentication, and order processing. Integrated secure Stripe payments and backend APIs for product management, checkout, and order history. Fully responsive with smooth user experience across devices.",
@@ -260,7 +311,6 @@ export const portfolioConfig = {
     },
   ],
 
- 
   // More Links Information
   moreLinks: [
     {

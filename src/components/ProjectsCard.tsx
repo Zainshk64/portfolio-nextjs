@@ -33,7 +33,7 @@ const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
       duration={0.15}
     >
       <Card className="w-full h-full flex flex-col hover:shadow-lg transition-all duration-300 border-2">
-        <Image src={value.img} alt="thumbnail" width={430} height={200} />
+        <Image src={value.img} alt="thumbnail" width={430} height={300} />
         <CardHeader className="pb-2">
           <CardTitle className="text-xl font-bold text-primary">
             {value.title}

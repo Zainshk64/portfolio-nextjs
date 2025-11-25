@@ -202,6 +202,21 @@ export const portfolioConfig = {
       tags: ["react-js", "redux", "tailwind-css", "API's", "framer-motion"],
     },
     {
+      title: "H&H Consultant - Global Education Gateway",
+      description:
+        "An education consulting platform with service booking, visa forms, and lead tracking. Uses backend APIs for appointment scheduling, email nurturing, and CRM integration for global outreach.",
+      link: "https://elite-consultant.vercel.app/",
+      img: "/projectimg/hnhconsultant.png",
+      tags: [
+        "next-js",
+        "tailwind-css",
+        "API's",
+        "framer-motion",
+        "aceternity-ui",
+        "shadcn-ui",
+      ],
+    },
+    {
       title: "Virtual Tutor - AI Learning Platform",
       description:
         "An AI-powered education tool generating video lectures, slides, and notes from any topic. Integrates REST APIs for content creation, real-time discussion, and progress tracking with interactive UX.",
@@ -236,21 +251,7 @@ export const portfolioConfig = {
         "lottieflies",
       ],
     },
-    {
-      title: "H&H Consultant - Global Education Gateway",
-      description:
-        "An education consulting platform with service booking, visa forms, and lead tracking. Uses backend APIs for appointment scheduling, email nurturing, and CRM integration for global outreach.",
-      link: "https://elite-consultant.vercel.app/",
-      img: "/projectimg/hnhconsultant.png",
-      tags: [
-        "next-js",
-        "tailwind-css",
-        "API's",
-        "framer-motion",
-        "aceternity-ui",
-        "shadcn-ui",
-      ],
-    },
+    
     {
       title: "E-Commerce Platform",
       description:

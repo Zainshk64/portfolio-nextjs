@@ -21,7 +21,7 @@ const page = () => {
       </Badge>
       <div className="flex flex-col gap-5">
         <Heading>
-          Frontend Web Developer. <br />
+          Web Developer <br />
           {/* Based In {''} */}
           {/* {portfolioConfig.about.personalInfo.nationality}. */}
         </Heading>

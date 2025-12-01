@@ -202,7 +202,7 @@ export const portfolioConfig = {
       tags: ["react-js", "redux", "tailwind-css", "API's", "framer-motion"],
     },
     {
-      title: "H&H Consultant - Global Education Gateway",
+      title: "H&H Visa Consultant - Global Education Gateway",
       description:
         "An education consulting platform with service booking, visa forms, and lead tracking. Uses backend APIs for appointment scheduling, email nurturing, and CRM integration for global outreach.",
       link: "https://elite-consultant.vercel.app/",
@@ -216,6 +216,24 @@ export const portfolioConfig = {
         "shadcn-ui",
       ],
     },
+   {
+  title: "Expense Tracker",
+  description:
+    "A full-stack MERN Expense Tracker that lets users securely register, log in, and manage their income and expenses. Includes JWT authentication, Cloudinary profile picture upload, and a personalized dashboard for tracking total income, expenses, and balance. Built with a Node.js/Express backend and MongoDB for reliable data management.",
+  link: "https://expense-tracker-frontend-alpha-seven.vercel.app",
+  img: "/projectimg/expense-tracker.png",
+  tags: [
+    "react-js",
+    "tailwind-css",
+    "node-js",
+    "express-js",
+    "mongodb",
+    "jwt-auth",
+    "cloudinary",
+    "mern-stack"
+  ],
+}
+,
     {
       title: "Virtual Tutor - AI Learning Platform",
       description:

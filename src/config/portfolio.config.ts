@@ -202,6 +202,32 @@ export const portfolioConfig = {
       tags: ["react-js", "redux", "tailwind-css", "API's", "framer-motion"],
     },
     {
+  title: "UDealZone Mobile App (Buy & Sell Marketplace)",
+  description:
+    "A modern mobile marketplace built with React Native for seamless buying and selling on the go.\nUsers can browse listings, post products, and manage ads.\nIntegrated real-time chat enables instant communication between buyers and sellers.\nIncludes an AI-powered chatbot for quick assistance and user support.\nSecure bank payment integration ensures smooth and reliable transactions.\nPowered by scalable APIs and optimized for a fast, responsive mobile experience.",
+  link: "https://play.google.com/store/apps/details?id=com.UDealZone.udealzone&pcampaignid=web_share",
+  img: "/projectimg/udealzone-app.png",
+  tags: [
+    "react-native",
+    "expo",
+    "tailwind-css",
+    "redux",
+    "socket-io",
+    "real-time-chat",
+    "chatbot",
+    "payment-integration",
+    "rest-api",
+    "axios"
+  ],
+},
+     {
+      title: "UDealZone Buy and Sell Marketplace",
+      description:
+  "A modern buy-and-sell marketplace built with Next.js, offering a smooth and responsive user experience. UDealZone enables users to easily browse listings, post products, and connect with buyers or sellers in real time, powered by efficient API integrations and dynamic UI interactions.",      link: "https://u-deal-web.vercel.app/",
+      img: "/projectimg/udealzone.png",
+      tags: ["next-js", "tailwind-css", "API's" ,"framer-motion"],
+    },
+    {
       title: "H&H Visa Consultant - Global Education Gateway",
       description:
         "An education consulting platform with service booking, visa forms, and lead tracking. Uses backend APIs for appointment scheduling, email nurturing, and CRM integration for global outreach.",
@@ -215,13 +241,6 @@ export const portfolioConfig = {
         "aceternity-ui",
         "shadcn-ui",
       ],
-    },
-     {
-      title: "UDealZone Buy and Sell Marketplace",
-      description:
-  "A modern buy-and-sell marketplace built with Next.js, offering a smooth and responsive user experience. UDealZone enables users to easily browse listings, post products, and connect with buyers or sellers in real time, powered by efficient API integrations and dynamic UI interactions.",      link: "https://u-deal-web.vercel.app/",
-      img: "/projectimg/udealzone.png",
-      tags: ["next-js", "tailwind-css", "API's" ,"framer-motion"],
     },
     {
       title: "Algoritma Descoberta",

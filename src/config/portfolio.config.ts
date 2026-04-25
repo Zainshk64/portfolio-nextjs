@@ -201,6 +201,7 @@ export const portfolioConfig = {
       img: "/projectimg/emtiyaz.png",
       tags: ["react-js", "redux", "tailwind-css", "API's", "framer-motion"],
     },
+
     
     {
   title: "UDealZone Mobile App (Buy & Sell Marketplace)",

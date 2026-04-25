@@ -216,45 +216,55 @@ export const portfolioConfig = {
         "shadcn-ui",
       ],
     },
-   {
-  title: "Expense Tracker",
-  description:
-    "A full-stack MERN Expense Tracker that lets users securely register, log in, and manage their income and expenses. Includes JWT authentication, Cloudinary profile picture upload, and a personalized dashboard for tracking total income, expenses, and balance. Built with a Node.js/Express backend and MongoDB for reliable data management.",
-  link: "https://expense-tracker-frontend-alpha-seven.vercel.app",
-  img: "/projectimg/expense-tracker.png",
-  tags: [
-    "react-js",
-    "tailwind-css",
-    "node-js",
-    "express-js",
-    "mongodb",
-    "jwt-auth",
-    "cloudinary",
-    "mern-stack"
-  ],
-}
-,
+     {
+      title: "UDealZone Buy and Sell Marketplace",
+      description:
+  "A modern buy-and-sell marketplace built with Next.js, offering a smooth and responsive user experience. UDealZone enables users to easily browse listings, post products, and connect with buyers or sellers in real time, powered by efficient API integrations and dynamic UI interactions.",      link: "https://u-deal-web.vercel.app/",
+      img: "/projectimg/udealzone.png",
+      tags: ["next-js", "tailwind-css", "API's" ,"framer-motion"],
+    },
+    {
+      title: "Algoritma Descoberta",
+      description:
+        "Smart IT Solutions. Real Business Impact Algoritma Descoberta delivers modern, scalable, and reliable technology solutions tailored to help businesses grow and transform digitally.",
+      link: "https://algoritma-descoberta.vercel.app/",
+      img: "/projectimg/algorithm.png",
+      tags: ["react-js", "tailwind-css", "framer-motion"],
+    },
+   
+    {
+      title: "Expense Tracker",
+      description:
+        "A full-stack MERN Expense Tracker that lets users securely register, log in, and manage their income and expenses. Includes JWT authentication, Cloudinary profile picture upload, and a personalized dashboard for tracking total income, expenses, and balance. Built with a Node.js/Express backend and MongoDB for reliable data management.",
+      link: "https://expense-tracker-frontend-alpha-seven.vercel.app",
+      img: "/projectimg/expense-tracker.png",
+      tags: [
+        "react-js",
+        "tailwind-css",
+        "node-js",
+        "express-js",
+        "mongodb",
+        "jwt-auth",
+        "cloudinary",
+        "mern-stack",
+      ],
+    },
     {
       title: "Virtual Tutor - AI Learning Platform",
       description:
         "An AI-powered education tool generating video lectures, slides, and notes from any topic. Integrates REST APIs for content creation, real-time discussion, and progress tracking with interactive UX.",
       link: "https://virtual-tutor-nextjs.vercel.app/",
       img: "/projectimg/virtualtutor.png",
-      tags: [
-        "next-js",
-        "tailwind-css",
-        "API's",
-        "framer-motion",
-      ],
+      tags: ["next-js", "tailwind-css", "API's", "framer-motion"],
     },
     {
-  title: "GBNodes - Game Server Hosting Platform",
-  description:
-    "A high-performance gaming hosting site for Minecraft, GTA V, ARK, and more with instant server deployment. Integrates REST APIs for plan selection, payment processing, and global VPS provisioning with low-latency features.",
-  link: "/projects",
-  img: "/projectimg/gbnodes.png",
-  tags: ["react-js", "tailwind-css", "API's" , "framer-motion"],
-},
+      title: "GBNodes - Game Server Hosting Platform",
+      description:
+        "A high-performance gaming hosting site for Minecraft, GTA V, ARK, and more with instant server deployment. Integrates REST APIs for plan selection, payment processing, and global VPS provisioning with low-latency features.",
+      link: "/projects",
+      img: "/projectimg/gbnodes.png",
+      tags: ["react-js", "tailwind-css", "API's", "framer-motion"],
+    },
     {
       title: "Estate Orbit - Lead Generation Platform",
       description:
@@ -269,7 +279,7 @@ export const portfolioConfig = {
         "lottieflies",
       ],
     },
-    
+
     {
       title: "E-Commerce Platform",
       description:

@@ -202,11 +202,11 @@ export const portfolioConfig = {
       tags: ["react-js", "redux", "tailwind-css", "API's", "framer-motion"],
     },
 
-    
+
     {
   title: "UDealZone Mobile App (Buy & Sell Marketplace)",
   description:
-    "A modern mobile marketplace built with React Native for seamless buying and selling on the go.\nUsers can browse listings, post products, and manage ads.\nIntegrated real-time chat enables instant communication between buyers and sellers.\nIncludes an AI-powered chatbot for quick assistance and user support.\nSecure bank payment integration ensures smooth and reliable transactions.\nPowered by scalable APIs and optimized for a fast, responsive mobile experience.",
+  "A modern mobile marketplace built with React Native for seamless buying and selling on the go.\nUsers can browse listings, post products, and communicate instantly with real-time chat and AI chatbot support. Includes secure bank payment integration and scalable APIs for a fast, reliable mobile experience.",  
   link: "https://play.google.com/store/apps/details?id=com.UDealZone.udealzone&pcampaignid=web_share",
   img: "/projectimg/udealzone-app.png",
   tags: [
@@ -214,11 +214,10 @@ export const portfolioConfig = {
     "expo",
     "tailwind-css",
     "redux",
-    "socket-io",
     "real-time-chat",
     "chatbot",
     "payment-integration",
-    "rest-api",
+    "API's",
     "axios"
   ],
 },

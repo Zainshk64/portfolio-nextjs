@@ -3,6 +3,7 @@ import { FlipWords } from "../components/ui/flip-words";
 
 export function FlipWordsDemo() {
   const words = [
+    "React-Native",
     "React-Js",
     "Next-Js",
     "Node-Js",
@@ -10,6 +11,7 @@ export function FlipWordsDemo() {
     "MongoDB",
     "Redux-Toolkit",
     "Tailwind-Css",
+    "BootStrap",
     "Framer-Motion",
     
   ];
@@ -17,10 +19,10 @@ export function FlipWordsDemo() {
   return (
     <div className="">
       <div className="text-2xl md:text-4xl max-w-5xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
-     I’m a Passionate <span className="text-black dark:text-white">MERN Stack Developer</span> <br />
-       using <FlipWords words={words} />
+     I’m a <span className="text-black dark:text-white">Full Stack JavaScript Developer (MERN)</span> <br />
+      building scalable web & mobile applications with <FlipWords words={words} />
          {/* Currently pursuing my Intermediate studies. */}
-         constantly learning and building impactful web experiences.
+        
       </div>
     </div>
   );

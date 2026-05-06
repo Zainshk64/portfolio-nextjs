@@ -45,7 +45,7 @@ export const portfolioConfig = {
   },
 
   about: {
-    bio: "I’m a passionate MERN Stack Developer with a strong foundation in modern frontend technologies like React.js, Tailwind CSS, and Next.js. I specialize in crafting sleek, responsive, and performance-driven interfaces while integrating powerful backend systems using Node.js, Express, and MongoDB. Currently enhancing my full-stack expertise through real-world projects and internship experience at Devrolin, I aim to build scalable and meaningful digital products that deliver seamless user experiences from end to end.",
+    bio: "I’m a Full Stack JavaScript Developer (MERN) with a strong focus on building modern, scalable, and high-performance web applications. I specialize in developing responsive user interfaces using React.js, Next.js, and Tailwind CSS, combined with powerful backend systems built with Node.js, Express, and MongoDB.I have hands-on experience creating complete end-to-end solutions, from frontend design to backend architecture, ensuring seamless performance and user experience. My goal is to build impactful digital products that are fast, scalable, and user-focused.",
 
     personalInfo: {
       language: "English, Urdu",
@@ -90,18 +90,6 @@ export const portfolioConfig = {
         name: "Next-JS",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
       },
-      // {
-      //   name: "C++",
-      //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
-      // },
-      // {
-      //   name: "Python",
-      //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-      // },
-      // {
-      //   name: "Java",
-      //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-      // },
     ],
     frameworks: [
       {
@@ -202,31 +190,31 @@ export const portfolioConfig = {
       tags: ["react-js", "redux", "tailwind-css", "API's", "framer-motion"],
     },
 
-
     {
-  title: "UDealZone Mobile App (Buy & Sell Marketplace)",
-  description:
-  "A modern mobile marketplace built with React Native for seamless buying and selling on the go.\nUsers can browse listings, post products, and communicate instantly with real-time chat and AI chatbot support. Includes secure bank payment integration and scalable APIs for a fast, reliable mobile experience.",  
-  link: "https://play.google.com/store/apps/details?id=com.UDealZone.udealzone&pcampaignid=web_share",
-  img: "/projectimg/udealzone-app.png",
-  tags: [
-    "react-native",
-    "expo",
-    "tailwind-css",
-    "redux",
-    "real-time-chat",
-    "chatbot",
-    "payment-integration",
-    "API's",
-    "axios"
-  ],
-},
-     {
+      title: "UDealZone Mobile App (Buy & Sell Marketplace)",
+      description:
+        "A modern mobile marketplace built with React Native for seamless buying and selling on the go.\nUsers can browse listings, post products, and communicate instantly with real-time chat and AI chatbot support. Includes secure bank payment integration and scalable APIs for a fast, reliable mobile experience.",
+      link: "https://play.google.com/store/apps/details?id=com.UDealZone.udealzone&pcampaignid=web_share",
+      img: "/projectimg/udealzone-app.png",
+      tags: [
+        "react-native",
+        "expo",
+        "tailwind-css",
+        "redux",
+        "real-time-chat",
+        "chatbot",
+        "payment-integration",
+        "API's",
+        "axios",
+      ],
+    },
+    {
       title: "UDealZone Buy and Sell Marketplace",
       description:
-  "A modern buy-and-sell marketplace built with Next.js, offering a smooth and responsive user experience. UDealZone enables users to easily browse listings, post products, and connect with buyers or sellers in real time, powered by efficient API integrations and dynamic UI interactions.",      link: "https://u-deal-web.vercel.app/",
+        "A modern buy-and-sell marketplace built with Next.js, offering a smooth and responsive user experience. UDealZone enables users to easily browse listings, post products, and connect with buyers or sellers in real time, powered by efficient API integrations and dynamic UI interactions.",
+      link: "https://u-deal-web.vercel.app/",
       img: "/projectimg/udealzone.png",
-      tags: ["next-js", "tailwind-css", "API's" ,"framer-motion"],
+      tags: ["next-js", "tailwind-css", "API's", "framer-motion"],
     },
     {
       title: "H&H Visa Consultant - Global Education Gateway",
@@ -251,7 +239,7 @@ export const portfolioConfig = {
       img: "/projectimg/algorithm.png",
       tags: ["react-js", "tailwind-css", "framer-motion"],
     },
-   
+
     {
       title: "Expense Tracker",
       description:

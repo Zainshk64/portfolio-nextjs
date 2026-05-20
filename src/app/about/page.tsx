@@ -49,7 +49,7 @@ const page = () => {
   <FramerWrapper y={0} x={100}>
     <div className="flex flex-col gap-2">
       <h3 className="text-2xl font-rubik text-primary">
-        MERN Stack Developer Internship
+        MERN Stack Developer
       </h3>
       <p className="text-sm text-muted-foreground">
         Devrolin — Rawalpindi | July 2025 – Present

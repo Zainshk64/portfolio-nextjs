@@ -45,7 +45,7 @@ export const portfolioConfig = {
   },
 
   about: {
-    bio: "I’m a Full Stack JavaScript Developer (MERN) with a strong focus on building modern, scalable, and high-performance web applications. I specialize in developing responsive user interfaces using React.js, Next.js, and Tailwind CSS, combined with powerful backend systems built with Node.js, Express, and MongoDB.I have hands-on experience creating complete end-to-end solutions, from frontend design to backend architecture, ensuring seamless performance and user experience. My goal is to build impactful digital products that are fast, scalable, and user-focused.",
+    bio: "I’m a Full Stack Developer (MERN) with a strong focus on building modern, scalable, and high-performance web applications. I specialize in developing responsive user interfaces using React.js, Next.js, and Tailwind CSS, combined with powerful backend systems built with Node.js, Express, and MongoDB.I have hands-on experience creating complete end-to-end solutions, from frontend design to backend architecture, ensuring seamless performance and user experience. My goal is to build impactful digital products that are fast, scalable, and user-focused.",
 
     personalInfo: {
       language: "English, Urdu",

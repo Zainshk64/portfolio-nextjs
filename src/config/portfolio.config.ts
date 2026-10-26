@@ -45,7 +45,7 @@ export const portfolioConfig = {
   },
 
   about: {
-    bio: "I’m a Full Stack Developer (MERN) with a strong focus on building modern, scalable, and high-performance web applications. I specialize in developing responsive user interfaces using React.js, Next.js, and Tailwind CSS, combined with powerful backend systems built with Node.js, Express, and MongoDB.I have hands-on experience creating complete end-to-end solutions, from frontend design to backend architecture, ensuring seamless performance and user experience. My goal is to build impactful digital products that are fast, scalable, and user-focused.",
+bio: "I'm a Full Stack Developer specializing in the MERN stack, passionate about building scalable web applications and meaningful digital experiences. I work with React.js, Next.js, Node.js, Express.js, and MongoDB to develop responsive interfaces, dynamic backend integrations, and end-to-end solutions. My experience includes building business management systems, role-based CRM platforms, automated lead-generation workflows, and SEO-friendly websites. I also develop cross-platform mobile applications using React Native, with a focus on clean architecture, performance optimization, maintainable code, and intuitive user experiences. I enjoy solving real-world problems, exploring modern technologies, and turning ideas into reliable, production-ready applications.",
 
     personalInfo: {
       language: "English, Urdu",
@@ -182,13 +182,21 @@ export const portfolioConfig = {
 
   projects: [
     {
-      title: "Emtiyaz Education",
+      title: "H&H Visa Consultant - Global Education Gateway",
       description:
-        "A full-stack education platform featuring student, teacher, and admin dashboards. Built with React and Tailwind CSS, integrated with backend APIs for course management, authentication, and AI chatbot for interactive learning support.",
-      link: "https://emtiyazeducation.netlify.app/",
-      img: "/projectimg/emtiyaz.png",
-      tags: ["react-js", "redux", "tailwind-css", "API's", "framer-motion"],
+        "An education consulting platform with service booking, visa forms, and lead tracking. Uses backend APIs for appointment scheduling, email nurturing, and CRM integration for global outreach.",
+      link: "https://elite-consultant.vercel.app/",
+      img: "/projectimg/hnhconsultant.png",
+      tags: [
+        "next-js",
+        "tailwind-css",
+        "API's",
+        "framer-motion",
+        "aceternity-ui",
+        "shadcn-ui",
+      ],
     },
+ 
 
     {
       title: "UDealZone Mobile App (Buy & Sell Marketplace)",
@@ -217,21 +225,6 @@ export const portfolioConfig = {
       tags: ["next-js", "tailwind-css", "API's", "framer-motion"],
     },
     {
-      title: "H&H Visa Consultant - Global Education Gateway",
-      description:
-        "An education consulting platform with service booking, visa forms, and lead tracking. Uses backend APIs for appointment scheduling, email nurturing, and CRM integration for global outreach.",
-      link: "https://elite-consultant.vercel.app/",
-      img: "/projectimg/hnhconsultant.png",
-      tags: [
-        "next-js",
-        "tailwind-css",
-        "API's",
-        "framer-motion",
-        "aceternity-ui",
-        "shadcn-ui",
-      ],
-    },
-    {
       title: "Algoritma Descoberta",
       description:
         "Smart IT Solutions. Real Business Impact Algoritma Descoberta delivers modern, scalable, and reliable technology solutions tailored to help businesses grow and transform digitally.",
@@ -256,6 +249,14 @@ export const portfolioConfig = {
         "cloudinary",
         "mern-stack",
       ],
+    },
+       {
+      title: "Emtiyaz Education",
+      description:
+        "A full-stack education platform featuring student, teacher, and admin dashboards. Built with React and Tailwind CSS, integrated with backend APIs for course management, authentication, and AI chatbot for interactive learning support.",
+      link: "https://emtiyazeducation.netlify.app/",
+      img: "/projectimg/emtiyaz.png",
+      tags: ["react-js", "redux", "tailwind-css", "API's", "framer-motion"],
     },
     {
       title: "Virtual Tutor - AI Learning Platform",
